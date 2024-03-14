@@ -1,4 +1,4 @@
-// Sayfa yüklendiğinde kayıtlı görevleri yükle
+
 window.onload = function() {
     var savedTasks = localStorage.getItem("tasks");
     if (savedTasks) {
